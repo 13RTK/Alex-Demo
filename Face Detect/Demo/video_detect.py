@@ -8,8 +8,7 @@ def face_detect_demo(img):
         cv.rectangle(img, (x, y), (x + w, y + h), color = (0, 0, 255), thickness = 2)
     cv.imshow('result', img)
 
-cap = cv.VideoCapture('psycho.mp4')
-
+cap = cv.VideoCapture('Queendom.mp4')
 
 while True:
     flag, frame = cap.read()
